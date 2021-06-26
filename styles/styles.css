@@ -235,6 +235,12 @@ h4 {
     color: rgb(2, 225, 2);
     position: relative;
     font-size: 40px;
+    transition: all 0.05s ease;
+}
+
+.playing{
+    transform:scale(1.1);
+    transform:transition(0,-10px);
 }
 
 .sounds {
