@@ -8,40 +8,43 @@
 
         <link rel="stylesheet" href="styles/styles.css">
     </head>
-    <body>
+    <body id="dark">
         <h1>Beat</h1>
 
-        <div class="square1">
+        <div class="square1 hvr-glow">
             <div data-key="65" class="key">
-                <span class="click">Mouse Click</span>
-                
-                <div class="A">
-                    <kbd>A</kbd>
-                </div>               
+                <span class="snd">Mouse Click</span>
+            <div data-key="186" class="key">
+                <div><kbd>A | ;</kbd></div>
+            </div>       
             </div>
         </div>
             
-        <div class="square2">
+        <div class="square2 hvr-glow">
             <div data-key="83" class="key">
-                <span class="boom">Boom</span>
+                <span class="snd">Boom Drum</span>
+            <div data-key="76" class="key">
+                <div><kbd>S | L</kbd></div>
+            </div>
+            </div>
+        </div>
 
-                <div class="S">
-                    <kbd>S</kbd>
-                </div>
+        <div class="square3 hvr-glow">
+            <div data-key="68" class="key">
+                <span class="snd">Hi-Hat</span>
+                <div><kbd>D</kbd></div>
+            </div>
+        </div>
+
+        <div class="square4 hvr-glow">
+            <div data-key="70" class="key">
+                <span class="snd">Kickdrum</span>
+                <div><kbd>F</kbd></div>
             </div>
         </div>
 
          
-        <div class="sounds">
-    
-            <div data-key="68" class="key">
-                <kbd>D</kbd>
-                <span class="snd">Hi-Hat</span>
-            </div>
-            <div data-key="70" class="key">
-                <kbd>F</kbd>
-                <span class="snd">Kickdrum</span>
-            </div>
+        <div id="dark" class="sounds"> <!-- PUT BACK BUTTONS-->
             <div data-key="74" class="key">
                 <kbd>J</kbd>
                 <span class="snd">Kickdrum</span>
@@ -50,25 +53,21 @@
                 <kbd>K</kbd>
                 <span class="snd">Hi-Hat</span>
             </div>
-            <div data-key="76" class="key">
-                <kbd>L</kbd>
-                <span class="snd">Boom</span>
-            </div>
-            <div data-key="186" class="key">
-                <kbd>;</kbd>
-                <span class="snd">Click</span>
-            </div>
         </div>
 
+        <div class="theme-buttons">
+            <button class="dark">Dark</button>
+            <button class="darker">Darker</button>
+        </div>
 
-        <audio data-key="65" src="sounds/click.wav"></audio>
-        <audio data-key="83" src="sounds/boom.wav"></audio>
-        <audio data-key="68" src="sounds/hi-hat.wav"></audio>
-        <audio data-key="70" src="sounds/kick-drum.wav"></audio>
-        <audio data-key="74" src="sounds/kick-drum.wav"></audio>
-        <audio data-key="75" src="sounds/hi-hat.wav"></audio>
-        <audio data-key="76" src="sounds/boom.wav"></audio>
-        <audio data-key="186" src="sounds/click.wav"></audio>
+        <audio  data-key="65" src="audio/click.wav"></audio>
+        <audio data-key="83" src="audio/boom.wav"></audio>
+        <audio data-key="68" src="audio/hihat.wav"></audio>
+        <audio data-key="70" src="audio/kickdrum.wav"></audio>
+        <audio data-key="74" src="audio/kickdrum.wav"></audio>
+        <audio data-key="75" src="audio/hihat.wav"></audio>
+        <audio data-key="76" src="audio/boom.wav"></audio>
+        <audio data-key="186" src="audio/click.wav"></audio>
         
         
     </body>
