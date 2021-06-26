@@ -1,0 +1,69 @@
+html{
+    background-color: black;
+    font-family: 'roboto mono', 'sans-serif';
+}
+
+.square1 {
+    display:inline-block;
+    padding:2em 2.5em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.5em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto mono',sans-serif;
+    text-transform:uppercase;
+    font-weight:400;
+    color:rgb(2, 225, 2);
+    background-color:rgb(2, 107, 2);
+    box-shadow:inset 0.25em -0.6em 0 -0.25em rgba(4, 26, 0, 0.55);
+    text-align:center;
+    position: relative;
+    left: 15%;
+    top: 150px;
+}
+
+.square2 {
+    display:inline-block;
+    padding: 2em 2.5em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.5em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto mono',sans-serif;
+    text-transform:uppercase;
+    font-weight:400;
+    color:rgb(2, 225, 2);
+    background-color:rgb(2, 107, 2);
+    box-shadow:inset 0.25em -0.6em 0 -0.25em rgba(4, 26, 0, 0.55);
+    text-align:center;
+    position: relative;
+    left: 25%;
+    top: 150px;
+}
+
+h1 {
+    color: rgb(2, 225, 2);
+    font-size: 50px;
+}
+
+.sounds { 
+    color: rgb(2, 225, 2);
+}
+
+
+.click {
+    position: relative;
+    font-size: 20px;
+}
+
+.A {
+    position: relative;
+    font-size: 40px;
+}
+
+
+
+
+#click {
+    color: rgb(2, 225, 2);
+}
