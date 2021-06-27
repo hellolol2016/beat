@@ -27,6 +27,9 @@ console.log(sessionStorage.getItem('darkness'))
 let darks = document.querySelectorAll("#dark");
 darks.forEach(dark=>{
     dark.classList.remove('dark');
+    if(sessionStorage.getItem('darkness')===null){
+        return;
+    }
     dark.id=sessionStorage.getItem('darkness');
 })
 function makeDarker(){
