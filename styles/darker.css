@@ -1,0 +1,230 @@
+/* -------------------- BACKGROUND ---------------------- */
+
+html{
+    background-color: black;
+    font-family: 'roboto mono', 'sans-serif';
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+/* --------------------------- HEADING -------------------*/
+
+#darker h1 {
+    color: rgb(2, 105, 2);
+    font-size: 50px;
+}
+
+#darker .notes {
+    display: inline-block;
+    height: 80px;
+}
+
+#darker h2 {
+    color: rgb(2, 105, 2);
+    text-align: center;
+    font-size: 40px;
+}
+
+#darker h3 {
+    color: rgb(2, 105, 2);
+    text-align: center;
+    font-size: 40px;
+}
+
+#darker h4 {
+    color: rgb(2, 105, 2);
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/* ------------------------- THEME HEADING --------------------*/
+
+#darker .theme-heading {
+    background-color: black;
+    padding: 0 0 20px 0;
+}
+
+#darker .button1{
+    display:inline-block;
+    width: 10%;
+    height: 15%;
+    padding: 0.40%;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid black;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto mono',sans-serif;
+    font-weight:300;
+    background-color: black;
+    color:rgb(0, 107, 0);
+    text-shadow: 0 0.04em 0.04em black;
+    text-align:center;
+    transition: all 0.2s;
+    font-size: 15px;
+}
+#darker .button1:hover{
+    border-color: rgb(0, 107, 0);
+}
+@media all and (max-width:30em){
+    #dark .button1{
+        display:block;
+        margin:0.2em auto;
+    }
+}
+
+#darker .dark {
+    position: relative;
+    left: 25%;
+}
+
+#darker .darker {
+    position: relative;
+    left: 55%
+}
+
+
+/* -------------------------- SQUARES -----------------------*/
+
+#darker .square {
+    display:inline-block;
+    width: 12%;
+    padding: 1%;
+    margin:0 0.3em 0.3em 0;
+    border-color: rgb(2, 107, 2);
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto mono',sans-serif;
+    text-transform:uppercase;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color: black;
+    box-shadow:inset 0em -0.6em 0 -0.35em rgba(10, 10, 10, 0.55);
+    text-align:center;
+    border-radius:0.5em;
+    transform:translate(0,2px);
+}
+@media all and (max-width:30em){
+    #darker .square {
+    display:block;
+    margin:0.4em auto;
+    }
+}
+#darker .square:active {
+   top: 0.1em;
+}
+
+#darker .hvr-glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+  #darker .hvr-glow:hover, #darker .hvr-glow:focus, #darker .hvr-glow:active {
+    box-shadow: 0 0 10px rgb(0, 105, 0);
+  }
+
+/* ----------------------- SOUND BOARD TEXTS -----------------------*/
+
+
+#darker .snd {
+    color: rgb(2, 105, 2);
+    position: relative;
+    font-size: 25px;
+}
+
+#darker .key {
+    color: rgb(2, 105, 2);
+    position: relative;
+    font-size: 40px;
+    transition: all 0.05s ease;
+}
+
+#darker .playing{
+    transform:scale(1.1);
+    transform:transition(0,-10px);
+    box-shadow: 0 0 10px rgb(0, 105, 0);
+    top: 0.1em;
+}
+
+#darker .sounds {
+    position: relative;
+    top: 50px;
+}
+
+#darker .click {
+    position: relative;
+    left: 5%;
+}
+
+#darker .click2 {
+    position: relative;
+    left: 5%;
+    top: 150px;
+}
+
+#darker .boom {
+    position: relative;
+    left: 17%;
+}
+
+#darker .boom2 {
+    position: relative;
+    left: 17%;
+    top: 150px;
+}
+
+#darker .hi-hat {
+    position: relative;
+    left: 29%;
+}
+
+#darker .hi-hat2 {
+    position: relative;
+    left: 29%;
+    top: 150px;
+}
+
+#darker .kickdrum {
+    position: relative;
+    left: 41%;
+}
+
+#darker .kickdrum2 {
+    position: relative;
+    left: 41%;
+    top: 150px;
+}
+
+/* ---------------------------- ABOUT US ---------------------------*/
+
+#darker .about-us-title-background {
+    background-color:rgb(0, 0, 0);
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 45%;
+    top: 30px;
+    transform: rotate(-5deg);
+}
+
+#darker .about-us {
+    background-color:black;
+    margin-top: 150px;
+    padding: 0 0 150px 0
+}
+
+#darker .about-us-text {
+    color: rgb(0, 105, 0);
+    position: relative;
+    top: 100px;
+    text-align: center;
+}

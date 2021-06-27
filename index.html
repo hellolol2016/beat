@@ -6,11 +6,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/dark.css">
+        <link rel="stylesheet" href="styles/darker.css">
     </head>
     <body id="dark">
-        <h1>Beat</h1>
-
+        <div class="header">
+            <h1>Beat</h1><img class="notes" src="../media/b.png">
+        </div>
         <div class="theme-heading">
             <h2>THEMES</h2>
             <div class="theme-buttons">
@@ -19,50 +21,58 @@
             </div>
         </div>
 
-        <img class="notes" src="../media/green-notes.png"><h3> SOUND-BOARD</h3>
+        
         <div id="dark" class="sounds"> <!-- PUT BACK BUTTONS-->
-            <div class="square1 hvr-glow">
-                <div data-key="65" class="key">
-                    <span class="snd">Mouse Click</span>
-                <div data-key="186" class="key">
-                    <div><kbd>A | ;</kbd></div>
-                </div>       
+                <div data-key="65" class="click key square hvr-glow">
+                    <span class="snd">Click</span>
+                    <div><kbd>A</kbd></div>   
                 </div>
-            </div>
                 
-            <div class="square2 hvr-glow">
-                <div data-key="83" class="key">
+                <div data-key="83" class="boom key square hvr-glow">
                     <span class="snd">Boom Drum</span>
-                <div data-key="76" class="key">
-                    <div><kbd>S | L</kbd></div>
+                    <div><kbd>S</kbd></div>
                 </div>
-                </div>
-            </div>
 
-            <div class="square3 hvr-glow">
-                <div data-key="68" class="key">
+
+                <div data-key="68" class="hi-hat key square hvr-glow">
                     <span class="snd">Hi-Hat</span>
-                <div data-key="75" class="key">
-                    <div> <kbd>D | K</kbd></div>
+                    <div> <kbd>D</kbd></div>
                 </div>
-                </div>
+
+                <div data-key="70" class="kickdrum key square hvr-glow">
+                    <span class="snd">Kickdrum</span>
+                    <div><kbd>F</kbd></div>
+                </div>    
+        </div>
+
+        <div class="row2">
+            <div data-key="186" class="click2 key square hvr-glow">
+                <span class="snd">Click</span>
+                <div><kbd>;</kbd></div>   
             </div>
 
-            <div class="square4 hvr-glow">
-                <div data-key="70" class="key">
-                    <span class="snd">Kickdrum</span>
-                <div data-key="74" class="key">
-                    <div><kbd>F | J</kbd></div>
-                </div>
-                </div>
+            <div data-key="76" class="boom2 key square hvr-glow">
+                <span class="snd">Boom Drum</span>
+                <div><kbd>l</kbd></div>   
+            </div>
+
+            <div data-key="75" class="hi-hat2 key square hvr-glow">
+                <span class="snd">Hi-Hat</span>
+                <div><kbd>K</kbd></div>   
+            </div>
+
+            <div data-key="74" class="kickdrum2 key square hvr-glow">
+                <span class="snd">kickdrum</span>
+                <div><kbd>j</kbd></div>   
             </div>
         </div>
+
 
         <div class="about-us">
             <div class="about-us-title-background">
                 <h4>ABOUT US</h4>
             </div>
-            <div class="about-us-text">PLACEHOLDER PLACEHOLDER PLACEHOLDER</div>
+            <div class="about-us-text">Hello, we're a group of two Juniors in Orange County who want to build a decent portfolio. This is one of our projects. We hope you enjoy!</div>
         </div>
 
 
