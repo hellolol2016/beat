@@ -19,24 +19,32 @@ const keys = Array.from(document.querySelectorAll(".key"));
 keys.forEach(key=>key.addEventListener("transitionend",removeTransition))// untransitions
 window.addEventListener("keydown", playSound);
 
-const localStorage = window.localStorage;
+const sessionStorage = window.sessionStorage;
 
 const themes = document.querySelectorAll(".theme-buttons");
 
+console.log(sessionStorage.getItem('darkness'))
+let darks = document.querySelectorAll("#dark");
+darks.forEach(dark=>{
+    dark.classList.remove('dark');
+    dark.id=sessionStorage.getItem('darkness');
+})
 function makeDarker(){
-    let darks = document.querySelectorAll("#dark");
+    darks = document.querySelectorAll("#dark");
+    sessionStorage.setItem('darkness', 'darker');
     darks.forEach(dark=>{
         dark.classList.remove('dark');
-        dark.id="darker";
+        dark.id=sessionStorage.getItem('darkness');
     })
 }
 
 function makeDark(){
-    let darks = document.querySelectorAll("#darker");
-    if(!darks)return;
-    darks.forEach(dark=>{
-        dark.classList.remove('dark');
-        dark.id="dark";
+    let darkers = document.querySelectorAll("#darker");
+    sessionStorage.setItem('darkness', 'dark');
+    if(!darkers)return;
+    darkers.forEach(darker=>{
+        darker.classList.remove('darker');
+        darker.id=sessionStorage.getItem('darkness');
     })
 }
 
